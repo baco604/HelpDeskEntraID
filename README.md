@@ -118,7 +118,7 @@ help desk tickets there is. In the admin center:
 Knowing where to look here is the difference between a two-minute ticket resolution
 and escalating something you could have handled yourself.
 
-> 📸 <img width="589" height="389" alt="Screenshot 2026-07-15 at 10 32 11 PM" src="https://github.com/user-attachments/assets/3ffa3e3b-d4d8-499d-89f3-97b2f94520bd" />
+> 📸 <img width="1178" height="778" alt="blurred_screenshot4" src="https://github.com/user-attachments/assets/343eb18b-c6ea-425a-bc9a-cda0e0deed41" />
 
 ---
 
