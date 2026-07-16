@@ -96,7 +96,7 @@ needs something outside your role (like a Conditional Access exception), you'll 
 immediately that it needs to be escalated rather than spending time hunting for a
 button that isn't there.
 
-> 📸 <img width="1164" height="770" alt="Screenshot 2026-07-15 at 10 30 55 PM" src="https://github.com/user-attachments/assets/e4115d84-52d0-43ad-9ec9-2d3ecb94cf7f" />
+> 📸 <img width="2328" height="1540" alt="blurred_screenshot3" src="https://github.com/user-attachments/assets/af619339-d18d-4629-a61b-49109c4450f3" />
 
 ---
 
