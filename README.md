@@ -60,7 +60,7 @@ If you do get the Developer Program sandbox working, it gets you a 25-user tenan
 with full E5 (P2 included) rather than a 30-day trial, which is nice if you want more
 runway — but it's not required for this guide.
 
-> 📸 <img width="1152" height="719" alt="Screenshot 2026-07-15 at 10 21 37 PM" src="https://github.com/user-attachments/assets/0799bd1f-b150-461c-a6b6-74ea9d030988" />
+> 📸 <img width="2304" height="1438" alt="blurred_screenshot" src="https://github.com/user-attachments/assets/147a4254-837b-4a06-95b7-76b70ccb92c9" />
 
 ---
 
