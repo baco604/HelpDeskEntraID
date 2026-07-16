@@ -18,30 +18,47 @@ someone who has never opened the Entra admin center before.
 
 ## 1. Setting up a free tenant
 
-There are two ways to get hands-on with Entra ID at no cost, and they get you very
-different levels of access:
+Heads up: the Microsoft 365 Developer Program sandbox has gotten harder to qualify for
+— Microsoft's automated eligibility check now leans toward accounts with a Visual
+Studio Professional/Enterprise subscription or Partner Network membership, and a
+fresh personal account will often get a "you don't currently qualify" message even
+when everything is filled out correctly. Don't worry if that happens to you — there's
+a more reliable path that gets you the same result.
 
-| Path | What you get | Best for |
-|---|---|---|
-| **Azure free account → Entra ID Free** | Automatically included with any Azure/Microsoft 365 signup. Core directory, basic SSO for up to ~10 pre-integrated apps, user/group management. No credit card required for the Entra portion. | Learning the basic directory model and navigation |
-| **Microsoft 365 Developer Program** | A 25-user sandbox tenant with **E5 licensing**, which includes Entra ID P2 — so Conditional Access, Identity Protection, and risk-based sign-in detection are all unlocked. | Actually seeing the security features a SOC would use |
+**Primary path — Azure free account + Entra ID trial license (most reliable):**
 
-**Recommendation:** start with the Developer Program tenant if you qualify — the free
-tier alone won't show you Conditional Access or risky sign-ins, since those require
-P1 and P2 respectively, and P2-only capabilities (risk-based access policies,
-Identity Protection, Privileged Identity Management) don't exist at all in the free
-tier. As a help desk analyst you may never configure these policies yourself, but
-you'll be the one fielding the ticket when one of them blocks a user, so it helps to
-have actually seen them from the inside.
+1. Go to `azure.microsoft.com/free` and sign up (identity verification only, no
+   charge). This automatically provisions you a Microsoft Entra ID tenant — this is
+   separate from the Developer Program sandbox, and everyone doing an Azure signup
+   gets one.
+2. Sign in at `entra.microsoft.com` with that new account.
+3. Go to **Billing → Purchase services** (or **Identity → Licenses → All products →
+   Try/Buy**) and activate a **free 30-day trial of Entra ID P1 or P2**. This is a
+   standard self-service trial available on any tenant — it's what unlocks
+   Conditional Access (P1) and Identity Protection (P2) without needing a developer
+   sandbox at all.
+4. Set up MFA for your admin account as part of the signup flow.
 
-**Steps (Developer Program path):**
-1. Go to `developer.microsoft.com/microsoft-365/dev-program` and join with a Microsoft account.
-2. Choose a region, company name, and accept terms.
-3. Select **Set up subscription** — this provisions your tenant and creates your first
-   Global Admin account.
-4. Set up MFA for that admin account (required as part of tenant creation).
-5. Optionally add the sample data pack (test users, groups, mailboxes) — handy for
-   having realistic-looking accounts to poke around with.
+This is arguably the more realistic path for a help desk field guide anyway — a
+support analyst in a real org won't have a Developer Program account, but plenty of
+orgs run on P1/P2 trials or standard licensing, so this mirrors what you'd actually
+encounter on the job.
+
+**Secondary path — Microsoft 365 Developer Program (if it works for you):**
+
+1. Try linking [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/)
+   first, using the *exact same Microsoft account* you used for the Developer
+   Program — this is free and doesn't require a paid VS subscription. It sometimes
+   flips the eligibility check by giving Microsoft a "real developer" signal to key off.
+2. Go to `developer.microsoft.com/microsoft-365/dev-program`, join, and check your
+   dashboard again for a **Set up E5 subscription** option.
+3. If you still see "you don't currently qualify," that's a known, common outcome
+   right now and not something you can manually override — fall back to the Azure
+   free account path above instead of troubleshooting further.
+
+If you do get the Developer Program sandbox working, it gets you a 25-user tenant
+with full E5 (P2 included) rather than a 30-day trial, which is nice if you want more
+runway — but it's not required for this guide.
 
 > 📸 *[Insert screenshot: tenant creation confirmation screen]*
 
@@ -192,8 +209,13 @@ security analyst needs later if it turns out to be part of something bigger.
   with on-prem writeback, group-based licensing.
 - **Entra ID P2 (~$9/user/mo)** — adds Identity Protection (risk-based sign-in/user
   detection) and Privileged Identity Management (PIM).
-- The Microsoft 365 Developer Program sandbox gives you E5, which includes P2 — so
-  it's the only free path that shows the full security feature set.
+- Any Azure free tenant can activate a **self-service 30-day P1/P2 trial** through
+  **Billing → Purchase services** — this is the most reliable free path to see the
+  full feature set, and it's the same trial mechanism a lot of real orgs use before
+  committing to licensing.
+- The Microsoft 365 Developer Program sandbox (when you can get it) also includes P2
+  via its E5 license, with a longer 25-user runway — but eligibility for new personal
+  accounts has become inconsistent, so don't block on it.
 
 ---
 
