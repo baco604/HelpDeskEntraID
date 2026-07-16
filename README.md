@@ -146,7 +146,7 @@ Same flow, but under **Conditions → Sign-in risk**, set it to Yes and choose
 Medium and High. This is powered by Identity Protection, which scores each sign-in
 using signals like impossible travel, anonymous IP, and leaked credentials.
 
-> 📸 <img width="583" height="386" alt="Screenshot 2026-07-15 at 10 35 55 PM" src="https://github.com/user-attachments/assets/b753576c-5cc0-4efb-9ac3-3db8164e63c9" />
+> 📸 <img width="1166" height="771" alt="blurred_screenshot5" src="https://github.com/user-attachments/assets/4dbab6e4-4d44-402e-b3f4-2f5cebb17682" />
 
 ---
 
