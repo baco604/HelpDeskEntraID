@@ -163,7 +163,7 @@ first place to check *why* — did Entra flag something real, or is it a false p
 (a legitimate VPN, a new device) that needs to be cleared? Knowing which one it is
 determines whether you reset the user and move on, or escalate to security.
 
-> 📸 <img width="586" height="389" alt="Screenshot 2026-07-15 at 10 38 17 PM" src="https://github.com/user-attachments/assets/14cc837e-1913-4c58-9b3f-c2278fe6d7f2" />
+> 📸 <img width="1171" height="777" alt="blurred_screenshot6" src="https://github.com/user-attachments/assets/960dd571-5a24-419f-a5b8-e6c11cd6939d" />
 
 ---
 
