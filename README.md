@@ -73,7 +73,7 @@ From the Entra admin center (`entra.microsoft.com`):
 3. Repeat for 2–3 test users — it helps to make one a "regular user" and one an
    "admin" so you can see how role assignment changes what they can access.
 
-> 📸 *[Insert screenshot: user list after creating test accounts]*
+> 📸 *<img width="1151" height="490" alt="Screenshot 2026-07-15 at 10 25 14 PM" src="https://github.com/user-attachments/assets/3dc4f175-5556-4196-a508-481c783d5f98" />
 
 ---
 
